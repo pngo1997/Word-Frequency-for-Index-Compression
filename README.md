@@ -15,11 +15,6 @@ This project analyzes the **'description' column** from the **TED Talks dataset 
   4. **Coverage of Top 30 Tokens in Dataset**  
 - Summarize results and **analyze vocabulary reduction trends**.
 
-📌 **Dataset**: `"ted_main.csv"`  
-📌 **Text Processing Library**: `NLTK`  
-📌 **Programming Language**: `Python 3`  
-📌 **Notebook Format**: Jupyter Notebook (`.ipynb`)  
-
 ## 📊 Text Processing Steps  
 ### **1️⃣ Data Loading & Preprocessing**
 - Load **"ted_main.csv"** (`utf-8` encoding).  
@@ -36,7 +31,10 @@ This project analyzes the **'description' column** from the **TED Talks dataset 
 - Compute total **tokens, vocabulary size, and frequency distribution**.  
 #### **[C] Porter Stemming (On Top of Scheme B)**  
 - Apply **Porter Stemming** (`nltk.PorterStemmer()`).  
-- Compute total **tokens, vocabulary size, and frequency distribution**.  
+- Compute total **tokens, vocabulary size, and frequency distribution**.
+
+## 📊 Summary Table
+![Summary Table](https://github.com/pngo1997/Images/blob/main/Inverted%20Index.png)  
 
 ## 🚀 Technologies Used  
 🛠 **Libraries & Tools**:  
